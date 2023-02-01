@@ -14,7 +14,10 @@ public class MaterialChangeColor : MonoBehaviour, IUsableObject
     }
 
     public void UseObject() { ChangeColor(); }
+    
+    public void Grab(Transform parent){}
 
+    public void Drop(){}
     private void ChangeColor()
     {
         _actualColor++;
